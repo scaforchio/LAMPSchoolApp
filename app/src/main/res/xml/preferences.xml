@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Preference
+        android:key="utenti"
+        android:summary="@string/utenti_summary"
+        android:title="@string/utenti" />
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="refresh"
+        android:summary="@string/refresh_summary"
+        android:title="@string/refresh" />
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="notifiche"
+        android:summary="@string/notifiche_summary"
+        android:title="@string/notifiche" />
+
+    <Preference
+        android:key="export"
+        android:summary="@string/export_summary"
+        android:title="@string/export" />
+
+    <Preference
+        android:key="import"
+        android:summary="@string/import_summary"
+        android:title="@string/import_title" />
+
+    <Preference
+        android:key="informazioni"
+        android:title="@string/title_info_activity" />
+
+</PreferenceScreen>

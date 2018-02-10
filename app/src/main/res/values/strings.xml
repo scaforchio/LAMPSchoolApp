@@ -1,0 +1,206 @@
+<resources>
+    <string name="app_name">LampSchool</string>
+    <string name="toolbar_name">LAMPSchool</string>
+    <string name="no_internet_connection">Connessione a internet assente</string>
+    <string name="tempo_connessione">Tempo per la connessione al server esaurito</string>
+    <string name="logout">Logout</string>
+
+    <!-- MainActivity -->
+    <string-array name="tabs">
+        <item>Valutazioni</item>
+        <item>Medie</item>
+        <item>Assenze</item>
+        <item>Ritardi</item>
+        <item>Uscite</item>
+        <item>Note</item>
+        <item>Comunicazioni</item>
+        <item>Lezioni</item>
+    </string-array>
+
+    <integer name="numTabs">8</integer>
+
+    <!-- SettingsActivity -->
+    <string name="title_activity_impostazioni">Impostazioni</string>
+    <string name="riavvio_richiesto">Le modifiche saranno applicate al prossimo riavvio</string>
+    <string name="refresh_summary">Richiede il riavvio dell\'applicazione</string>
+    <string name="refresh">Abilita Swipe To Refresh</string>
+    <string name="utenti_summary">Gestione degli utenti</string>
+    <string name="utenti">Utenti</string>
+    <string name="notifiche_summary">Attiva/Disattiva le notifiche per l\'applicazione</string>
+    <string name="notifiche">Mostra notifiche</string>
+    <string name="export_summary">Esporta su un file tutti gli account</string>
+    <string name="export">Esporta</string>
+    <string name="import_summary">Importa da un file tutti gli account</string>
+    <string name="import_title">Importa</string>
+    <string name="fileformat_error">File con estensione errata</string>
+    <string name="export_ok">Account esportati nella memoria interna</string>
+    <string name="export_failed">Impossibile esportare gli account</string>
+    <string name="import_ok">Account importati con successo</string>
+    <string name="import_error">Impossibile importare gli account</string>
+    <string name="write_permission_required">Permessi di scrittura richiesti per esportare il file</string>
+    <string name="read_permission_required">Permessi di lettura richiesti per importare il file</string>
+    <string name="internet_permission_required">Permesso di accedere a internet richiesto</string>
+    <string name="network_permission_required">Permesso di accedere allo stato della rete richiesto.
+            Senza di esso verranno disabilitate le notifiche
+    </string>
+
+    <!-- UsersActivity -->
+    <string name="title_activity_utenti">Utenti</string>
+    <string name="search_hint">Cerca utente</string>
+
+    <!-- UserActivity -->
+    <string name="edit_ok">Modifiche effettuate</string>
+
+    <!-- InfoActivity -->
+    <string name="title_info_activity">Informazioni</string>
+
+    <!-- AdapterAssenze -->
+    <string name="giustifica_ass">Giustificata</string>
+    <string name="no_giustifica_ass">Da giustificare</string>
+
+    <!-- AdapterRitardi -->
+    <string name="giustifica_rit">Giustificato</string>
+    <string name="no_giustifica_rit">Da giustificare</string>
+
+    <!-- ExitDialog -->
+    <string name="exit_message">Vuoi uscire?</string>
+    <string name="exit_positive">SI</string>
+    <string name="exit_negative">NO</string>
+
+    <!-- AccountManagerDialog -->
+    <string name="manager_message">Seleziona account:</string>
+    <string name="login_positive">Accedi</string>
+    <string name="login_negative">Esci</string>
+    <string name="login_neutral">Impostazioni</string>
+    <string name="progress_message">Connessione al registro...</string>
+    <string name="errore_registro">Impossibile collegarsi al registro controllare i dati di accesso</string>
+    <string name="user_add">Aggiungere prima un utente</string>
+    <string name="no_users">Nessun utente presente</string>
+
+    <!-- AddUserDialog -->
+    <string name="user_message">Aggiungi utente</string>
+    <string name="user_positive">Aggiungi</string>
+    <string name="user_negative">Annulla</string>
+    <string name="user_exist">Utente già esistente</string>
+    <string name="empty_fields">Riempire tutti i campi</string>
+    <string name="user_username">Nome Utente:</string>
+    <string name="user_password">Password:</string>
+    <string name="user_link">Link:</string>
+    <string name="user_suffisso">Suffisso:</string>
+    <string name="user_name">Nome:</string>
+    <string name="user_surname">Cognome:</string>
+    <string name="section1">Dati di accesso</string>
+    <string name="section2">Dati Alunno</string>
+
+    <!-- SearchLezioni -->
+    <string name="search_lezioni_message">Ricerca Lezioni</string>
+
+    <!-- SearchVotiDialog -->
+    <string name="search_message">Ricerca Valutazioni</string>
+    <string name="search_positive">Cerca</string>
+    <string name="search_negative">Annulla</string>
+    <string name="search_data_inizio">Data Inizio:</string>
+    <string name="search_data_fine">Data Fine:</string>
+    <string name="search_materia">Materia:</string>
+
+    <!-- SortVotiDialog -->
+    <string name="sort_message">Ordina Per</string>
+    <string name="sort_positive">Ordina</string>
+    <string name="sort_negative">Annulla</string>
+    <string name="sort_quadrimestre">Quadrimestre</string>
+    <string name="sort_materia">Materia</string>
+    <string name="sort_crescente">Crescente</string>
+    <string name="sort_decrescente">Decrescente</string>
+    <string name="sort_voto">Voto</string>
+    <string name="sort_tipo">Tipo</string>
+
+
+    <!-- FragmentLezioni -->
+    <string name="num_lezioni">Numero di lezioni: </string>
+
+    <!-- FragmentComunicazioni -->
+    <string name="num_comunicazioni">Numero di comunicazioni: </string>
+
+    <!-- FragmentAssenze -->
+    <string name="num_assenze">Numero di assenze: </string>
+
+    <!-- FragmentNote -->
+    <string name="num_note">Numero di note: </string>
+
+    <!-- FragmentRitardi -->
+    <string name="num_ritardi">Numero ritardi: </string>
+
+    <!-- FragmentUscite -->
+    <string name="num_uscite">Numero uscite: </string>
+
+    <!-- FragmentVoti -->
+    <string name="num_voti">Numero di voti: </string>
+
+    <!-- Notifiche -->
+    <string name="notifica">Visualizza</string>
+
+    <!-- TabAssenze -->
+    <string name="data_assenza">Data Assenza</string>
+    <string name="stato_giustifica_assenza">Stato</string>
+
+    <!-- TabNote, TabRitardi, TabUscite -->
+    <string name="cognome">Cognome</string>
+    <string name="nome">Nome</string>
+    <string name="data">Data</string>
+    <string name="ora_entrata">Ora Entrata</string>
+    <string name="ora_uscita">Ora Uscita</string>
+    <string name="num_ore">N° Ore</string>
+
+    <!-- Icone -->
+    <string name="search">Cerca</string>
+    <string name="reload">Ricarica</string>
+    <string name="sort">Ordina</string>
+
+    <!-- Notifications -->
+    <string-array name="notifiche">
+        <item>Nuovi voti aggiunti per</item>
+        <item>Nuove assenze rilevate per</item>
+        <item>Nuovi ritardi rilevati per</item>
+        <item>Nuove uscite rilevate per</item>
+        <item>Nuove note assegnate per</item>
+        <item>Nuove comunicazioni non lette per</item>
+        <item>Nuove lezioni aggiunte a</item>
+    </string-array>
+    <string name="nuove_notifiche">nuove notifiche</string>
+
+    <!-- Utils -->
+    <string-array name="tipi">
+        <item>Individuali</item>
+        <item>Classe</item>
+    </string-array>
+    <string name="no_note">Nessuna nota da visualizzare</string>
+
+    <string-array name="tipi_voto">
+        <item>Orale</item>
+        <item>Pratico</item>
+        <item>Scritto</item>
+    </string-array>
+
+    <string-array name="tipi_note">
+        <item>Individuali</item>
+        <item>Classe</item>
+    </string-array>
+
+    <string-array name="quadrimestri">
+        <item>1° Quadrimestre</item>
+        <item>2° Quadrimestre</item>
+    </string-array>
+
+    <string name="versione">Versione 2.1.6</string>
+    <string name="sviluppatori">
+        Michele Grifa (5 A inf. 15/16)\n
+        Giuseppe Di Cosmo (5 A inf. 13/14)\n
+        Antonio Esposto (5 A inf. 13/14)\n
+        Dario Placentino (5 A inf. 13/14)\n\n
+        Docente: Pietro Tamburrano\n
+        (ISIS LUIGI DI MAGGIO - San Giovanni Rotondo)
+    </string>
+
+    <string name="info_message">Informazioni Alunno</string>
+    <string name="indicazioni_com">Premi per leggere la comunicazione</string>
+</resources>

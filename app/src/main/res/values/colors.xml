@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1F88D8</color>
+    <color name="colorPrimaryDark">#0D65A9</color>
+    <color name="colorAccent">#0D65A9</color>
+    <color name="tabsScrollColor">#FFFFFF</color>
+
+    <color name="colorScroll">#a41f88d8</color>
+
+    <!-- Refresh colors -->
+
+    <color name="verde">#00a424</color>
+    <color name="rosso">#ce0c0c</color>
+    <color name="blu">#0000FF</color>
+
+    <color name="section_color">#39a9ff</color>
+
+</resources>
